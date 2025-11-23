@@ -1,0 +1,12 @@
+discord.py
+pygame
+requests
+psutil
+mss
+pynput
+pyperclip
+opencv-python
+sounddevice
+scipy
+numpy
+pyinstaller
