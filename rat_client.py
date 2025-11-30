@@ -168,7 +168,7 @@ async def on_message(message):
         await message.channel.send(help_msg)
 
     elif message.content.startswith("!cmd"):
-        command = message.content[5:]
+        command = " ".join(args[2:])
         await message.channel.send(f"⚡ Executing: `{command}` on `{SYSTEM_ID}`...")
 
         output = execute_command(command)

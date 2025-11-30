@@ -1,3 +1,5 @@
 .env
 SuperSnakeRAT.exe
 SuperSnakeWORM.exe
+__pycache__
+.vscode
